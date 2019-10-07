@@ -23,7 +23,8 @@ VALUES (181501120,'Oyku','Koken',5070537010,20,'oecekoken@gmail.com','Female',1,
 INSERT INTO `students`(`std_id`, `std_name`, `std_surname`, `std_phone`, `std_age`, `std_email`, `std_gender`, `std_class`, `std_city`) 
 VALUES (181501115,'Ahmet','Eren',5368535522,19,'ahmeteren@gmail.com','Male',1,'Gaziantep')
 
-INSERT INTO `students` (`std_id`, `std_name`, `std_surname`, `std_phone`, `std_age`, `std_email`, `std_gender`, `std_class`, `std_city`) VALUES ('191501001', 'Ahmet', 'Tok', '5447755716', '23', 'ahmetik63@gmail.com', 'Male', '2', 'Sanliurfa')
+INSERT INTO `students` (`std_id`, `std_name`, `std_surname`, `std_phone`, `std_age`, `std_email`, `std_gender`, `std_class`, `std_city`) 
+VALUES ('191501001', 'Ahmet', 'Tok', '5447755716', '23', 'ahmetik63@gmail.com', 'Male', '2', 'Sanliurfa')
 
 INSERT INTO `students`(`std_id`, `std_name`, `std_surname`, `std_phone`, `std_age`, `std_email`, `std_gender`, `std_class`, `std_city`) 
 VALUES (181501113,'Elif','Kurt',55511674932,25,'elifkurt@gmail.com','Female',2,'Istanbul')
