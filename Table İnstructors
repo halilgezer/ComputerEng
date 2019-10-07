@@ -1,0 +1,45 @@
+CREATE TABLE instructors
+(ins_id varchar(15),
+ ins_degree varchar(20),
+ ins_name varchar(30),
+ ins_surname varchar(30),
+ ins_phone varchar(15) not null,
+ ins_age int(5),
+ ins_email varchar(50),
+ ins_gender varchar(10),
+ ins_city varchar(50)
+ )
+ 
+ 
+ 
+ Instructors
+
+INSERT INTO `instructors`(`ins_id`, `ins_degree`, `ins_name`, `ins_surname`, `ins_phone`, `ins_age`, `ins_email`, `ins_gender`, `ins_city`) 
+VALUES (1,'Prof. Dr','Veysi','Isler',5744691236,41,'drveysiisler@gmail.com','Male','Izmir')
+
+INSERT INTO `instructors`(`ins_id`, `ins_degree`, `ins_name`, `ins_surname`, `ins_phone`, `ins_age`, `ins_email`, `ins_gender`, `ins_city`) 
+VALUES (2,'Dr','Ulas','Gulec',5054131200,41,'ulasgulec@outlook.com','Male','Ankara')
+
+INSERT INTO `instructors`(`ins_id`, `ins_degree`, `ins_name`, `ins_surname`, `ins_phone`, `ins_age`, `ins_email`, `ins_gender`, `ins_city`) 
+VALUES (3,'Doc. DR',' Muhammed Fatih','Hasoglu',5441039746,38,'fatihhasoglu@yahoo.com','Male','Malatya')
+
+INSERT INTO `instructors`(`ins_id`, `ins_degree`, `ins_name`, `ins_surname`, `ins_phone`, `ins_age`, `ins_email`, `ins_gender`, `ins_city`) 
+VALUES (4,'Dr','Bulent','Haznedar',5076107648,43,'bulenthaznedar@gmail.com','Male','Adana')
+
+INSERT INTO `instructors`(`ins_id`, `ins_degree`, `ins_name`, `ins_surname`, `ins_phone`, `ins_age`, `ins_email`, `ins_gender`, `ins_city`) 
+VALUES (5,'Dr','Abdul','Hafez',5316480121,43,'abdulhafez@gmail.com','Male','Halep')
+
+INSERT INTO `instructors`(`ins_id`, `ins_degree`, `ins_name`, `ins_surname`, `ins_phone`, `ins_age`, `ins_email`, `ins_gender`, `ins_city`) 
+VALUES (6,'Dr','Saed','Alqareh',507461321,47,'saedalqareh@outlook.com','Male','Halep')
+
+INSERT INTO `instructors`(`ins_id`, `ins_degree`, `ins_name`, `ins_surname`, `ins_phone`, `ins_age`, `ins_email`, `ins_gender`, `ins_city`) 
+VALUES (6,'Ogr gorevlisi','Mustafa','Bicakci',3422118080,35,'mustafa.bicakci@hku.edu.tr','Male','Gaziantep')
+
+INSERT INTO `instructors`(`ins_id`, `ins_degree`, `ins_name`, `ins_surname`, `ins_phone`, `ins_age`, `ins_email`, `ins_gender`, `ins_city`) 
+VALUES (7,'Aras gorevlisi','Cihan','Kuzudisli',3422112221,31,'cihan.kuzudisli@hku.edu.tr','Male','Gaziantep')
+
+INSERT INTO `instructors`(`ins_id`, `ins_degree`, `ins_name`, `ins_surname`, `ins_phone`, `ins_age`, `ins_email`, `ins_gender`, `ins_city`) 
+VALUES (8,'Aras gorevlisi','Nihat','Yilmaz Simsek',3422111220,28,'nyilmaz.simsek@hku.edu.tr','Male','Osmaniye')
+
+INSERT INTO `instructors`(`ins_id`, `ins_degree`, `ins_name`, `ins_surname`, `ins_phone`, `ins_age`, `ins_email`, `ins_gender`, `ins_city`) 
+VALUES (9,'Aras gorevlisi','Melih','Yayla',3422118080,29,'melih.yayla@hku.edu.tr','Male','Gaziantep')
