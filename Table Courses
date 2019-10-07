@@ -1,0 +1,6 @@
+CREATE TABLE courses
+(crs_id varchar(20) not null,
+ crs_name varchar(30),
+ crs_instructer varchar(30),
+ crs_students varchar(1000)
+ )
