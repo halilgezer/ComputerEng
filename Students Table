@@ -1,0 +1,38 @@
+ CREATE TABLE students						
+(std_id varchar(10) not null,
+ std_name varchar(30),
+ std_surname varchar(30),
+ std_phone varchar(15),
+ std_age int(5),
+ std_email varchar(50),
+ std_gender varchar(10),
+ std_class  int(5),
+ std_city varchar(50)
+
+
+
+	STUDENTS
+
+  INSERT INTO `students`(`std_id`, `std_name`, `std_surname`, `std_phone`, `std_age`, `std_email`, `std_gender`, `std_class`, `std_city`) 
+VALUES (191501003,'ibrahim','Gezer',5077322176,22,'igezer.igezer@gmail.com','Male',1,'Gaziantep')
+
+
+ INSERT INTO `students`(`std_id`, `std_name`, `std_surname`, `std_phone`, `std_age`, `std_email`, `std_gender`, `std_class`, `std_city`) 
+VALUES (181501120,'Oyku','Koken',5070537010,20,'oecekoken@gmail.com','Female',1,'Osmaniye')
+
+INSERT INTO `students`(`std_id`, `std_name`, `std_surname`, `std_phone`, `std_age`, `std_email`, `std_gender`, `std_class`, `std_city`) 
+VALUES (181501115,'Ahmet','Eren',5368535522,19,'ahmeteren@gmail.com','Male',1,'Gaziantep')
+
+INSERT INTO `students` (`std_id`, `std_name`, `std_surname`, `std_phone`, `std_age`, `std_email`, `std_gender`, `std_class`, `std_city`) VALUES ('191501001', 'Ahmet', 'Tok', '5447755716', '23', 'ahmetik63@gmail.com', 'Male', '2', 'Sanliurfa')
+
+INSERT INTO `students`(`std_id`, `std_name`, `std_surname`, `std_phone`, `std_age`, `std_email`, `std_gender`, `std_class`, `std_city`) 
+VALUES (181501113,'Elif','Kurt',55511674932,25,'elifkurt@gmail.com','Female',2,'Istanbul')
+
+INSERT INTO `students`(`std_id`, `std_name`, `std_surname`, `std_phone`, `std_age`, `std_email`, `std_gender`, `std_class`, `std_city`) 
+VALUES (181501117,'Husniye','Elmas',505189237,21,'husniyeelmas@hotmail.com','Female',3,'Batman')
+
+INSERT INTO `students`(`std_id`, `std_name`, `std_surname`, `std_phone`, `std_age`, `std_email`, `std_gender`, `std_class`, `std_city`) 
+VALUES (181501117,'Efe','Pak',5611239840,22,'efepak@outlook.com','Male',2,'Denizli')
+
+INSERT INTO `students`(`std_id`, `std_name`, `std_surname`, `std_phone`, `std_age`, `std_email`, `std_gender`, `std_class`, `std_city`) 
+VALUES (181501001,'Ece', 'Kilicci' ,5071221232,23,'ecekilic@gmail.com','Female',4,'Mersin')
