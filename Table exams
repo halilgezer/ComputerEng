@@ -1,0 +1,11 @@
+CREATE TABLE exams
+(exam_id varchar(15)
+ students  varchar(100),
+ courses   varchar(80),
+ firs_exam  int(10),
+ second_exam int(10),
+ letter_grade varchar(10),
+ evaluation   varchar(20)
+)
+
+
