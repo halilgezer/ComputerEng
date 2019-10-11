@@ -1,0 +1,7 @@
+CREATE TABLE announces
+(
+ ann_id varchar(15),
+ ann_topic varchar(30),
+ ann_corurse varchar(100),
+ ann_students varchar(60)
+ )
